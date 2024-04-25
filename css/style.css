@@ -1,0 +1,34 @@
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  display: none;
+  background-color: #7fffd4;
+  border-color: #1DB0F5;
+}
+
+.carousel-inner {
+  height: 0;
+  padding-bottom: 35%
+}
+
+.carousel-item {
+  position: absolute !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: fill;
+}
+
+.back-color {
+  background-color: #D4F4F5;
+}
+nav{
+  background-color: aquamarine;
+}
+
